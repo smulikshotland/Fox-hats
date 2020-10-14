@@ -1,0 +1,43 @@
+<html>
+
+<head>
+
+
+</head>
+
+<body dir="rtl">
+  <br>
+  <h1>"ברוכים הבאים לעולם הכובע כובעי פוקס"</h1>
+  <mat-toolbar class="allOptions">
+
+    <!-- <mat-autocomplete #auto="matAutocomplete">
+
+      <mat-option *ngFor="let option of options" [value]="option">
+        {{option}}
+      </mat-option>
+
+    </mat-autocomplete> -->
+    
+    <!-- <input type="text" placeholder="חיפוש" aria-label="Number" matInput  > -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form -->
+<form class="example" action="action_page.php">
+  
+  <button type="submit"><i class="fa fa-search"></i></button>
+  <input type="text" placeholder="חיפוש" name="search">
+</form>
+    
+    <span routerLink='/about'>אודות החנות</span>
+    <span routerLink='/contact'>יצירת קשר</span>
+    <span routerLink='/gallery'>גלרייה</span>
+    <span routerLink='/sale'>מבצעים</span>
+    <span routerLink='/branches'>סניפים</span>
+    <span routerLink='/login'>החשבון שלי</span>
+    
+  </mat-toolbar>
+  <router-outlet></router-outlet>
+  
+  </body>
+
+</html>

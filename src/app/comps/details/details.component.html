@@ -1,0 +1,14 @@
+<div class="all">
+  <div *ngIf="hat">
+      <h2>{{hat.name}} Details</h2>
+      <img class="hatImage" src={{hat.image}} alt="Photo of a Shiba Inu">
+      <div><span>id: </span>{{hat.id}}</div>
+      <div>
+        <label>name:
+          <!-- <input [(ngModel)]="hat.name" placeholder="name"/> -->
+        </label>
+      </div>
+      <button (click)="goBack()">go back</button>
+    
+  </div>
+</div>
