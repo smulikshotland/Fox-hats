@@ -1,4 +1,4 @@
-[fox](https://smulikshotland.github.io/Fox-hats/index.html/)
+[fox](https://smulikshotland.github.io/Fox-hats/index.html)
 
 # Fux
 
